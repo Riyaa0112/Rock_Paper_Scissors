@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    background-color: beige;
+}
+.heading{
+    height: 70px;
+    background-color: #522258;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.game{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    margin-left: 300px;
+}
+#rock{
+    height: 200px;
+    width: 200px;
+    background-color: #8C3061;
+    border-radius: 50%;
+    background-image: url(rock1.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#paper{
+    height: 200px;
+    width: 200px;
+    background-color: #C63C51;
+    border-radius: 50%;
+    background-image: url(paper1.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#scissor{
+    height: 200px;
+    width: 200px;
+    background-color: #D95F59;
+    border-radius: 50%;
+    background-image: url(scissor1.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.border{
+    border: 2px transparent solid;
+}
+.border:hover{
+    border: 3px solid black;
+}
+.count{
+        width: 200px;
+        margin-left: 660px;
+        margin-top: 40px;
+        color: black;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-evenly;
+}
+.score{
+    width: 200px;
+    margin-left: 670px;
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    height: 80px;
+    width: 280px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    margin-left: 630px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
